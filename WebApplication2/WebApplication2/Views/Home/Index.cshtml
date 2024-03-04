@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    body {
+        background-color:#bc435e;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    }
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: right;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: right;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: right;
+        margin-bottom: 10px;
+        color: black;
+    }
+    p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-top: 3%;
+        color: black;
+    }
+
+    nav {
+        background-color: whitesmoke;
+    
+    }
+
+    .nav-links {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #ae516e;
+        margin-left: 600px;
+       
+    }
+
+        .nav-links:hover {
+            background-color:  #c43b66;
+        }
+
+    .Profile {
+        margin-top: 20px;
+        margin-bottom:60px;
+        margin-left: 750px;
+        border-radius: 50%;
+        width: 200px;
+        height: 250px;
+    }
+</style>
+<div class="head">
+    <img src="/pic.png" alt="me" class="Profile" />
+    <h2>Mabuhay!<br>I am Mary Kierine Go</h2>
+
+</div>
+<div class="text-center">
+    <h4>3rd-year college student at Lyceum of Alabang</h4>
+    <h3 class="display-4"> Bachelor of Science in Information Technology (BSIT)</h3>
+    <button class="nav-links"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="School">My schedule</a></button>
+</div>
+
+
